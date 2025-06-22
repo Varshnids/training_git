@@ -3,7 +3,7 @@ import { useState } from 'react';
 const LikeDislike = () => {
   const [likeCount, setLikeCount] = useState(0);
   const [dislikeCount, setDislikeCount] = useState(0);
-  const [name, setName] = useState('Ragul');
+  const [name, setName] = useState('Varshni');
 
   const handleLike = () => setLikeCount(likeCount + 1);
   const handleDislike = () => setDislikeCount(dislikeCount + 1);
@@ -12,7 +12,7 @@ const LikeDislike = () => {
     setDislikeCount(0);
   };
   const toggleName = () =>
-    setName(name === 'Ragul' ? 'Shandeep' : 'Ragul');
+    setName(name === 'Varshni' ? 'Shandeep' : 'Varshni');
 
   return (
     <div className="card slide-up">

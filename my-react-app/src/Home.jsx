@@ -41,7 +41,7 @@ const Home = () => {
         marginBottom: 'var(--spacing-12)'
       }}>
         <div className="card slide-up">
-          <Welcome name="Ragul" country="India" />
+          <Welcome name="Varshni" country="India" />
         </div>
         <div className="card slide-up">
           <Skills skill={['React', 'Node', 'Express', 'MongoDB']} />

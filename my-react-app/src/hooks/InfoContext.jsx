@@ -6,7 +6,7 @@ export const InfoContext = createContext();
 // Context provider
 export const InfoProvider = ({ children }) => {
   const info = {
-    name: 'Ragul',
+    name: 'Varshni',
     age: 20,
     dep: 'MSC'
   };

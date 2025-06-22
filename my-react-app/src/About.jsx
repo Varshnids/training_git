@@ -211,7 +211,7 @@ const About = () => {
           gap: 'var(--spacing-6)'
         }}>
           {[
-            { name: 'Ragul Kumar', role: 'Lead Developer', avatar: 'R' },
+            { name: 'Varshni Kumar', role: 'Lead Developer', avatar: 'V' },
             { name: 'Sarah Johnson', role: 'UI/UX Designer', avatar: 'S' },
             { name: 'Mike Chen', role: 'Backend Engineer', avatar: 'M' }
           ].map((member, index) => (
