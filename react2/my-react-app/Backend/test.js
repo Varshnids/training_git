@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const BASE = 'http://localhost:3000';
+const BASE = 'http://localhost:5000';
 
 async function testPostValid() {
   const res = await fetch(`${BASE}/post`, {

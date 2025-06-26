@@ -16,7 +16,7 @@ const Form = () => {
     e.preventDefault();
     setError('');
     try {
-      const response = await fetch('http://localhost:3000/post', {
+      const response = await fetch('http://localhost:5000/post', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
